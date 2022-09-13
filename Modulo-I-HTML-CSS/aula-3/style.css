@@ -1,0 +1,18 @@
+.primeirasListas{
+    color:darkgrey;
+}
+
+.segundasListas {
+    color:darksalmon;
+}
+
+#titulo{
+    color:rgb(179, 87, 179);
+}
+
+.paragrafo{
+    font-size: 17px;
+    font-family: monospace;
+    line-height: 1;
+    border: 15px solid red;
+}
