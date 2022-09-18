@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Architects+Daughter&family=Caveat&family=Comfortaa&family=Dancing+Script:wght@600&family=Lobster&family=Montagu+Slab&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 12px
+} 
+
+body::-webkit-scrollbar-thumb {   
+background-color: #ce9dcf90;   
+}
+
+.header-menu{
+    display: flex;
+    position: fixed; 
+    width: 100%; 
+    padding: 30px 8px 30px 8px;
+    height: 15px; 
+    background-color: rgba(147,97,135,255);
+}
+
+.header-menu nav {
+    display: flex; 
+    justify-content: flex-end;
+    width: 100%; 
+}
+
+.section-principal{
+    height: 84.8vh;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.container {
+    margin: 100px auto 0 auto;
+    max-width: 960px; 
+    padding: 0 10px 0 10px; 
+    width: 100%; 
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-sobre-mim {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 32px; 
+    color: #28103d;
+}
+
+.meu-nome{
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 0.030em 0.040em rgb(54, 54, 54);
+    font-size: 50px;
+    color: #c54c52;
+    padding: 30px;
+}
+
+.button_projetcI{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #c54c5280;
+    color: #313131;
+    font-weight: 600;
+}
+
+.button_projetcI:hover{
+    background-color: #c54c52;
+    color: #ffffff;
+    transition: 3s;
+}
+
+.footer {
+    background-color: rgba(147,97,135,255);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
