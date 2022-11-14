@@ -71,6 +71,7 @@ background-color: #ce9dcf90;
 }
 
 .button_projetcI{
+    
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -81,6 +82,23 @@ background-color: #ce9dcf90;
 }
 
 .button_projetcI:hover{
+    background-color: #c54c52;
+    color: #ffffff;
+    transition: 3s;
+}
+
+.button_projetcII {
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #c54c5280;
+    color: #313131;
+    font-weight: 600;
+}
+
+.button_projetcII:hover{
     background-color: #c54c52;
     color: #ffffff;
     transition: 3s;
